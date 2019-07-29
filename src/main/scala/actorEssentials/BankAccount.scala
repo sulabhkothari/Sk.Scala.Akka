@@ -1,3 +1,5 @@
+package actorEssentials
+
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
 import scala.util.{Failure, Success}

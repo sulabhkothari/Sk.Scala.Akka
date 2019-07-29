@@ -1,7 +1,10 @@
-import akka.actor._
+package actorEssentials
 
-import scala.concurrent.duration._
+import akka.actor.{Actor, ActorRef, ActorSystem, Props}
+
+import scala.language.postfixOps
 import scala.util.Random
+import scala.concurrent.duration._
 
 object FirstActor {
   def main(args: Array[String]): Unit = {
@@ -103,4 +106,3 @@ object FirstActor {
   }
 
 }
-

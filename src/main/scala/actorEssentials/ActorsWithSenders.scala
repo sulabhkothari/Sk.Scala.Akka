@@ -1,4 +1,5 @@
-import FirstActor.ShoppingCart
+package actorEssentials
+
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
 object ActorsWithSenders {

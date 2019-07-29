@@ -1,4 +1,6 @@
-import Supervision.RequestLoanQuotation
+package actorEssentials
+
+import actorEssentials.Supervision.RequestLoanQuotation
 import akka.actor.SupervisorStrategy.{Escalate, Restart, Resume, Stop}
 import akka.actor.{Actor, ActorRef, ActorSystem, OneForOneStrategy, Props}
 

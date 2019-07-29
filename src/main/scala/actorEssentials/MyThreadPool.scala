@@ -1,3 +1,5 @@
+package actorEssentials
+
 import java.util.concurrent.ConcurrentLinkedQueue
 
 import scala.concurrent.Future
